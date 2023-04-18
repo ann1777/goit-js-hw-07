@@ -7,7 +7,8 @@ galleryContainer.insertAdjacentHTML('beforeend', itemsMarkup);
 galleryContainer.addEventListener('click', onImgClickCreateModal);
 
 var lightbox = new SimpleLightbox('.gallery a', { 
-    captionsData: "alt"
+    captionsData: "alt",
+    captionDelay: 250
  });
 
 //rendered items
