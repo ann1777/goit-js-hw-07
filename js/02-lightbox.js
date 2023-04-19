@@ -19,6 +19,7 @@ function createGalleryItemsMarkup(items) {
             <img class="gallery__image"
             src="${preview}"
             alt="${description}"
+            loading="lazy"
            />
         </a>
     </div>`
