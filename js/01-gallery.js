@@ -24,6 +24,8 @@ function createGalleryItemsMarkup(items) {
 }
 
 // 2. Implementation of delegation to ul.gallery and obtaining the url of a large image.
+galleryContainer.addEventListener("click", onImgClickCreateModal)
+
 function onImgClickCreateModal(e) {
     e.preventDefault();
     if (e.target.nodeName !== "IMG") {return;}
